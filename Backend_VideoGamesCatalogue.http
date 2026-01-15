@@ -1,0 +1,11 @@
+@Backend_VideoGamesCatalogue_HostAddress = http://localhost:5128
+
+GET {{Backend_VideoGamesCatalogue_HostAddress}}/api/videogames/
+Accept: application/json
+
+###
+
+GET {{Backend_VideoGamesCatalogue_HostAddress}}/api/videogames/1
+Accept: application/json
+
+###
